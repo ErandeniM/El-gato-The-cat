@@ -35,15 +35,15 @@ Y daremos clic para descargar el archivo “TheGatoGame.rar”
 
 ## EXPLICACIÓN DEL CÓDIGO
 Para dejar el contenido del código más claro, se dividió en 5 secciones diferentes, que indican desde que se abre la primera ventana hasta que se cierra el juego.
-1.- Definición de la Clase y Variables
+- 1. Definición de la Clase y Variables
 En esta sección preparamos los “cimientos del programa. Heredamos de JFrame para crear la ventana y definimos los elementos que usaremos en todo el código, como el arreglo de 9 botones y los nombres de los jugadores.
-2.- Constructor: Configuración Visual y Bienvenida
+- 2.- Constructor: Configuración Visual y Bienvenida
 En esta sección es donde el juego arranca. Se piden los nombres mediante ventanas emergentes y se define el diseño de la ventana (colores, fuentes y el título).
-3.- El Tablero
+- 3.- El Tablero
 Para no crear 9 botones manualmente, usamos un ciclo for. El GridLayout es la clave aquí, ya que organiza los botones en una cuadrícula de 3x3 de forma automática
-4.- Control de turnos
+- 4.- Control de turnos
 Esta parte detecta los clics. Valida que no se pueda marcar un cuadro ya ocupado y alterna el símbolo (X o O) y el color dependiendo del turno actual.
-5.- Verificación de ganador y empate
+- 5.- Verificación de ganador y empate
 Es la lógica de victoria. El código compara el contenido de los botones basándose en una matriz de combinaciones posibles (filas, columnas y diagonales).
 
 
